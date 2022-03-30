@@ -1,6 +1,6 @@
 <?php
 
-// URLs do projeto
+// URL base do projeto
 define('URL', 'http://www.phptest.com.br');
 
 // Controller e método padrão

@@ -2,25 +2,38 @@
 
 Teste de seleção para vaga PHP
 
-## Faça um fork desse projeto e siga as intruções a seguir utilizando esse projeto.
+Projeto de buscador de cep utilizado um Micro MVC criado com PHP 7.
 
-Construir uma aplicação web para buscar endereço. Aplicação deve fazer uma chamada na API via cep : https://viacep.com.br/.
-Premissas:
+## Requisitos para rodar o projeto.
 
-  ● Usar PHP 5.6 ou superior.
+  * PHP 7
   
-  ● Usar Bootstrap.
+  * [Composer](https://getcomposer.org/)
   
-  ● JavaScript (Não usar framework).
-  
-  ● Retorno deve ser em xml.
-  
-  ● Salvar os dados em uma base e antes de uma nova consulta verificar se o cep já foi consultado, caso tenha sido, trazer    informação da base e não deve efetuar uma nova consulta.
-  
-  ● Tratar o erro. Dar um retorno amigável para usuário leigo.
-  
-  
-## PS: Valorizamos a criatividade no layout.
+## Configurações.
 
-# Entrega: 
- * Disponibilizar um link do repositório no GitHub e encaminhar para developer@cd2.com.br
+1. Instale as dependências e o autoload do composer
+
+```
+$ composer instal
+```
+
+2. Importe o arquivo do banco que esta na pasta DB
+
+3. Configure as credenciais do banco que estão arquivo config.php na pasta core
+
+4. Neste mesmo arquivo configure a url base do projeto
+
+5. Configurar também a url base no arquivo global.js dentro da pasta assets/js
+
+## Execução
+
+ * Execute o projeto com:
+
+ 1. [Xamp](https://www.apachefriends.org/download.html)
+ 2. [Wamp](https://www.wampserver.com/en/)
+ 3. [Laragon](https://laragon.org/download/)
+
+## Author
+| [<img src="https://avatars.githubusercontent.com/u/52866537?v=4" width=120><br><sub>@moisespontes</sub>](https://github.com/moisespontes) |
+| :---: |
