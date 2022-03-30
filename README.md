@@ -15,7 +15,7 @@ Projeto de buscador de cep utilizado um Micro MVC criado com PHP 7.
 1. Instale as dependências e o autoload do composer
 
 ```
-$ composer instal
+$ composer install
 ```
 
 2. Importe o arquivo do banco que esta na pasta DB
