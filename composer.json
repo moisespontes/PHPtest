@@ -1,0 +1,13 @@
+{
+    "name": "moisespontes/phptest",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Core\\": "Core"
+        }, 
+        "files": [
+            "boot/config.php",
+            "boot/functions.php"
+        ]
+    }
+}
